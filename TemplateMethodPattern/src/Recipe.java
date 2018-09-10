@@ -1,5 +1,5 @@
 
-public abstract class DrinkRecipe {
+public abstract class Recipe {
 	protected abstract void addSugar();
 	protected abstract void addSalt();
 	
@@ -8,6 +8,8 @@ public abstract class DrinkRecipe {
 		addSugar();
 		addSalt();
 		pourIntoCup();
+		
+		System.out.println();
 	}
 	
 	private void addWater() {

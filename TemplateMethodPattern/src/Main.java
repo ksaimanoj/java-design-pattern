@@ -5,7 +5,7 @@ public class Main {
 		CoffeeRecipe coffeeRecipe = new CoffeeRecipe();
 		TeaRecipe teaRecipe = new TeaRecipe();
 		
-		coffeeRecipe.makeDrink();
+		coffeeRecipe.makeDrink();		
 		teaRecipe.makeDrink();
 	}
 

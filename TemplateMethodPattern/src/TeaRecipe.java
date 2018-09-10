@@ -1,5 +1,5 @@
 
-public class TeaRecipe extends DrinkRecipe {
+public class TeaRecipe extends Recipe {
 
 	@Override
 	protected void addSugar() {
